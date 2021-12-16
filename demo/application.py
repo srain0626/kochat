@@ -3,6 +3,8 @@
 @since 7/1/2020
 @see https://github.com/gusdnd852
 """
+import sys
+sys.path.append('C:\Users\srain0626\Documents\GitHub\kochat')
 from flask import render_template
 
 from kochat.app import KochatApi
